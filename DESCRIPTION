@@ -17,6 +17,7 @@ Imports:
     dplyr,
     forcats,
     gnm,
+    gt,
     jsonlite,
     lubridate,
     readr,
