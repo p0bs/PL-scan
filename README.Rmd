@@ -1,6 +1,7 @@
 ---
 title: "Predicting This Year's Premier League"
-output: html_document
+output: 
+  github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
