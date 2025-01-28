@@ -9,6 +9,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   echo = FALSE,
   comment = "#>",
+  df_print = "kable",
   # fig.path = "man/figures/logo.png",
   fig.path = "man/figures/README-",
   out.width = "100%"
@@ -22,5 +23,5 @@ This repo uses a simplified version of [David Firth's methodology](https://githu
 ```{r}
 data <- readr::read_csv(file = "projections.csv", show_col_types = FALSE)
 
-gt::gt(data)
+data |> print(n = 20)
 ```
