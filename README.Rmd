@@ -9,7 +9,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   echo = FALSE,
   comment = "#>",
-  df_print = "kable",
+  df_print = "tibble",
   # fig.path = "man/figures/logo.png",
   fig.path = "man/figures/README-",
   message = FALSE,
@@ -26,16 +26,5 @@ data <- readr::read_csv(file = "projections.csv", show_col_types = FALSE)
 
 data |> 
   dplyr::select(Team, Played, "Expected Points" = Exp_Points) |> 
-  DT::datatable(
-    rownames = FALSE, 
-    width = "100%",
-    options = list(
-      dom = 'tip',
-      pageLength = 20
-      )
-    ) |> 
-  DT::formatRound(
-    columns = 3,
-    digits = 1
-    )
+  print(n = 20)
 ```
