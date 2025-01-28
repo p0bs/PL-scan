@@ -92,7 +92,7 @@ results_combined <- dplyr::bind_rows(results_lastSeason, results_thisSeason) |>
 modelframe <- gnm::expandCategorical(results_combined, "FTR", idvar = "match") |> 
   dplyr::mutate(
     draw = as.numeric(FTR == "D"),
-    count = if_else((is.na(FTHG) | is.na(FTAG)), NA, count)
+    count = dplyr::if_else((is.na(FTHG) | is.na(FTAG)), NA, count)
     ) |> 
   dplyr::select(dplyr::everything(), count, draw) |> 
   dplyr::mutate(match = forcats::as_factor(match))
@@ -132,8 +132,8 @@ details <- outputs$coefficients |>
   dplyr::rowwise() |> 
   dplyr::mutate(
     estimate_e = exp(estimate),
-    homeTeam = if_else(stringr::str_ends(team_location, "_home"), stringr::str_sub(team_location, 1, 3), NA_character_),
-    awayTeam = if_else(stringr::str_ends(team_location, "_away"), stringr::str_sub(team_location, 1, 3), NA_character_)
+    homeTeam = dplyr::if_else(stringr::str_ends(team_location, "_home"), stringr::str_sub(team_location, 1, 3), NA_character_),
+    awayTeam = dplyr::if_else(stringr::str_ends(team_location, "_away"), stringr::str_sub(team_location, 1, 3), NA_character_)
     ) |> 
   dplyr::ungroup()
 
