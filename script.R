@@ -1,5 +1,6 @@
 # A tidier and shorter replica of David Firth's model
 
+
 # Data ----
 
 lookback_rounds <- 38
@@ -123,6 +124,7 @@ names(model$coefficients) <- c(colnames(X), "draw")
 
 outputs <- summary(model)
 
+
 # Projections ----
 
 details <- outputs$coefficients |> 
@@ -236,6 +238,12 @@ projections <- data_table_now |>
   dplyr::arrange(dplyr::desc(points_exp), dplyr::desc(GD)) |> 
   dplyr::select(Team, "Played" = games_exp, "Exp_Points" = points_exp)
 
+
 # Saving projections ----
 
 readr::write_csv(x = projections, file = "projections.csv", append = FALSE)
+
+
+# Rendering README ----
+
+rmarkdown::render("README.Rmd")

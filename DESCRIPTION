@@ -16,10 +16,12 @@ Depends:
 Imports: 
     dplyr,
     forcats,
-    gnm, 
+    gnm,
+    gt,
     jsonlite,
     lubridate,
     readr,
+    rmarkdown,
     stringr,
     tibble,
     tidyr
