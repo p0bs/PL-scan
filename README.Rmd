@@ -26,5 +26,5 @@ data <- readr::read_csv(file = "projections.csv", show_col_types = FALSE)
 
 data |> 
   dplyr::select(Team, Played, "Expected Points" = Exp_Points) |> 
-  gt::gt(data)
+  gt::gt()
 ```
