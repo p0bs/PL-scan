@@ -19,6 +19,7 @@ Imports:
     gnm,
     jsonlite,
     lubridate,
+    reactable,
     readr,
     rmarkdown,
     stringr,
