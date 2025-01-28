@@ -1,6 +1,5 @@
 ---
-title: Predicting This Year's Premier League
-output: html_document
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -10,6 +9,8 @@ knitr::opts_chunk$set(
   echo = FALSE
   )
 ```
+
+## Predicting This Year's Premier League
 
 <br/>
 
@@ -22,7 +23,7 @@ readr::read_csv(
   ) |> 
   knitr::kable(
     format = "html",
-    col.names = c("Team ", "____ Played", "____ Expected Points"), 
+    col.names = c("Team ", "Played", "Expected Points"), 
     digits = c(0, 0, 1),
     padding = 5
     )
