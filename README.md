@@ -1,9 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## Predicting This Year’s Premier League
-
-<br/>
+## Predicting this season’s Premier League
 
 I use a simplified version of [David Firth’s
 approach](https://github.com/DavidFirth/alt3code) to predict the outcome
