@@ -5,10 +5,11 @@
 
 <br/>
 
-This repo uses a simplified version of [David Firth’s
-methodology](https://github.com/DavidFirth/alt3code) to predict the
-outcome of the Premier League for this season. Here are those
-predictions:
+I use a simplified version of [David Firth’s
+approach](https://github.com/DavidFirth/alt3code) to predict the outcome
+of this season’s Premier League.
+
+Here are those predictions:
 
 <table>
 <thead>
