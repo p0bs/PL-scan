@@ -1,29 +1,30 @@
 ---
-title: "Predicting This Year's Premier League"
-output: 
-  github_document
+output: html_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
-  echo = FALSE,
-  fig.path = "man/figures/README-",
-  message = FALSE,
-  warning = FALSE,
-  results = "asis"
-)
+  echo = FALSE
+  )
 ```
+
+## Predicting This Year's Premier League
 
 <br/>
 
 This repo uses a simplified version of [David Firth's methodology](https://github.com/DavidFirth/alt3code) to predict the outcome of the Premier League for this season. Here are those predictions:
 
 ```{r}
-data <- readr::read_csv(file = "projections.csv", show_col_types = FALSE)
-
-data |> 
-  dplyr::select(Team, Played, "Expected Points" = Exp_Points) |> 
-  gt::gt()
+readr::read_csv(
+  file = "projections.csv", 
+  show_col_types = FALSE
+  ) |> 
+  knitr::kable(
+    format = "html",
+    col.names = c("Team ", "____ Played", "____ Expected Points"), 
+    digits = c(0, 0, 1),
+    padding = 5
+    )
 ```
