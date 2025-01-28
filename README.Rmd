@@ -9,7 +9,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   echo = FALSE,
   comment = "#>",
-  df_print = "tibble",
+  df_print = "paged",
   # fig.path = "man/figures/logo.png",
   fig.path = "man/figures/README-",
   message = FALSE,
