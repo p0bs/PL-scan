@@ -25,31 +25,17 @@ This repo uses a simplified version of [David Firth's methodology](https://githu
 data <- readr::read_csv(file = "projections.csv", show_col_types = FALSE)
 
 data |> 
-  reactable::reactable(
-    filterable = FALSE, 
-    highlight = TRUE, 
-    borderless = TRUE, 
-    defaultPageSize = 20, 
-    columns = list(
-      Team = reactable::colDef(
-        name = "Team", 
-        minWidth = 50, 
-        sticky = "left"
-        ),
-      Played = reactable::colDef(
-        name = "Played", 
-        minWidth = 50, 
-        sticky = "left"
-        ),
-      Exp_Points = reactable::colDef(
-        name = "Expected Points", 
-        sticky = "right", 
-        filterable = FALSE, 
-        format = reactable::colFormat(
-          separators = TRUE, 
-          digits = 1
-          )
-        )
+  dplyr::select(Team, Played, "Expected Points" = Exp_Points) |> 
+  DT::datatable(
+    rownames = FALSE, 
+    width = "100%",
+    options = list(
+      dom = 'tip',
+      pageLength = 20
       )
+    ) |> 
+  DT::formatRound(
+    columns = 3,
+    digits = 1
     )
 ```

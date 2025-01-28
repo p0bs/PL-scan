@@ -15,11 +15,11 @@ Depends:
     R (>= 4.1)
 Imports: 
     dplyr,
+    DT,
     forcats,
     gnm,
     jsonlite,
     lubridate,
-    reactable,
     readr,
     rmarkdown,
     stringr,
