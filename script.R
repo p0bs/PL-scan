@@ -247,3 +247,20 @@ readr::write_csv(x = projections, file = "projections.csv", append = FALSE)
 # Rendering README ----
 
 rmarkdown::render("README.Rmd")
+
+
+# Saving log ----
+
+data_log <- data.frame(
+  value_date = date(),
+  value_rows = nrow(projections)
+  )
+
+write.table(
+  x = data_log, 
+  sep = ",",
+  file = "log.csv", 
+  row.names = FALSE, 
+  col.names = FALSE, 
+  append = TRUE
+)
