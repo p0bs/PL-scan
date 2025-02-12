@@ -44,7 +44,7 @@ ARS
 38
 </td>
 <td style="text-align:right;">
-82.4
+82.5
 </td>
 </tr>
 <tr>
@@ -60,6 +60,17 @@ MCI
 </tr>
 <tr>
 <td style="text-align:left;">
+CHE
+</td>
+<td style="text-align:right;">
+38
+</td>
+<td style="text-align:right;">
+66.4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 NOT
 </td>
 <td style="text-align:right;">
@@ -67,17 +78,6 @@ NOT
 </td>
 <td style="text-align:right;">
 65.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-CHE
-</td>
-<td style="text-align:right;">
-38
-</td>
-<td style="text-align:right;">
-65.2
 </td>
 </tr>
 <tr>
@@ -137,17 +137,6 @@ FUL
 </tr>
 <tr>
 <td style="text-align:left;">
-WHU
-</td>
-<td style="text-align:right;">
-38
-</td>
-<td style="text-align:right;">
-47.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 BRE
 </td>
 <td style="text-align:right;">
@@ -166,6 +155,17 @@ MUN
 </td>
 <td style="text-align:right;">
 46.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+WHU
+</td>
+<td style="text-align:right;">
+38
+</td>
+<td style="text-align:right;">
+46.7
 </td>
 </tr>
 <tr>
@@ -231,7 +231,7 @@ IPS
 38
 </td>
 <td style="text-align:right;">
-25.2
+25.1
 </td>
 </tr>
 <tr>
