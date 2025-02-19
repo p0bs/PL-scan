@@ -33,7 +33,7 @@ LIV
 38
 </td>
 <td style="text-align:right;">
-89.1
+88.1
 </td>
 </tr>
 <tr>
@@ -44,7 +44,7 @@ ARS
 38
 </td>
 <td style="text-align:right;">
-82.5
+82.9
 </td>
 </tr>
 <tr>
@@ -55,7 +55,7 @@ MCI
 38
 </td>
 <td style="text-align:right;">
-71.7
+72.6
 </td>
 </tr>
 <tr>
@@ -66,7 +66,7 @@ CHE
 38
 </td>
 <td style="text-align:right;">
-66.4
+64.7
 </td>
 </tr>
 <tr>
@@ -77,23 +77,23 @@ NOT
 38
 </td>
 <td style="text-align:right;">
-65.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-NEW
-</td>
-<td style="text-align:right;">
-38
-</td>
-<td style="text-align:right;">
-62.2
+64.2
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 BOU
+</td>
+<td style="text-align:right;">
+38
+</td>
+<td style="text-align:right;">
+62.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NEW
 </td>
 <td style="text-align:right;">
 38
@@ -110,7 +110,7 @@ AST
 38
 </td>
 <td style="text-align:right;">
-60.6
+59.1
 </td>
 </tr>
 <tr>
@@ -121,7 +121,7 @@ BRI
 38
 </td>
 <td style="text-align:right;">
-54.7
+56.9
 </td>
 </tr>
 <tr>
@@ -132,7 +132,7 @@ FUL
 38
 </td>
 <td style="text-align:right;">
-53.8
+55.7
 </td>
 </tr>
 <tr>
@@ -143,29 +143,7 @@ BRE
 38
 </td>
 <td style="text-align:right;">
-47.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-MUN
-</td>
-<td style="text-align:right;">
-38
-</td>
-<td style="text-align:right;">
-46.9
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-WHU
-</td>
-<td style="text-align:right;">
-38
-</td>
-<td style="text-align:right;">
-46.7
+49.9
 </td>
 </tr>
 <tr>
@@ -176,18 +154,18 @@ TOT
 38
 </td>
 <td style="text-align:right;">
-46.6
+48.3
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-CPA
+MUN
 </td>
 <td style="text-align:right;">
 38
 </td>
 <td style="text-align:right;">
-46.3
+45.5
 </td>
 </tr>
 <tr>
@@ -198,7 +176,29 @@ EVE
 38
 </td>
 <td style="text-align:right;">
-42.3
+44.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+WHU
+</td>
+<td style="text-align:right;">
+38
+</td>
+<td style="text-align:right;">
+44.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CPA
+</td>
+<td style="text-align:right;">
+38
+</td>
+<td style="text-align:right;">
+44.4
 </td>
 </tr>
 <tr>
@@ -209,7 +209,7 @@ WOL
 38
 </td>
 <td style="text-align:right;">
-36.7
+36.2
 </td>
 </tr>
 <tr>
@@ -220,7 +220,7 @@ LEI
 38
 </td>
 <td style="text-align:right;">
-26.8
+26.2
 </td>
 </tr>
 <tr>
@@ -231,7 +231,7 @@ IPS
 38
 </td>
 <td style="text-align:right;">
-25.1
+26.2
 </td>
 </tr>
 <tr>
@@ -242,7 +242,7 @@ SOU
 38
 </td>
 <td style="text-align:right;">
-13.2
+12.9
 </td>
 </tr>
 </tbody>
