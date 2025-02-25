@@ -14,17 +14,55 @@ knitr::opts_chunk$set(
 
 I use a simplified version of [David Firth's approach](https://github.com/DavidFirth/alt3code) and data from the [Open Football repo](https://github.com/openfootball/football.json) on GitHub to predict the outcome of this season's Premier League. 
 
+The predictions are based on a team's strength, given its performance in recent times. But how should we define 'recent'? In order to duck this question, I choose two different time periods: over this and the previous season, and the last half of a season.
+
 Here are those predictions:
+
+### Predicted probabilities
+#### (Based upon performances over this and the previous season)
 
 ```{r}
 readr::read_csv(
-  file = "projections.csv", 
+  file = "projections78.csv", 
   show_col_types = FALSE
   ) |> 
+  dplyr::select(-Exp_Points_Ave) |> 
+  dplyr::mutate(
+    dplyr::across(
+      .cols = c(-midName), 
+      .fns = ~formattable::percent(.x, digits = 1)
+      )
+    ) |> 
   knitr::kable(
     format = "html",
-    col.names = c("Team ", "Played", "Expected Points"), 
-    digits = c(0, 0, 1),
-    padding = 5
+    col.names = c("Team ", "Champion", "Top 4", "Top 5", "Top 6", "Top Half", "Relegation"), 
+    digits = c(0, rep(4, 6)),
+    padding = 10
     )
 ```
+
+<br/>
+
+### Predicted probabilities
+#### (Based upon performances in the last half season)
+
+```{r}
+readr::read_csv(
+  file = "projections19.csv", 
+  show_col_types = FALSE
+  ) |> 
+  dplyr::select(-Exp_Points_Ave) |> 
+  dplyr::mutate(
+    dplyr::across(
+      .cols = c(-midName), 
+      .fns = ~formattable::percent(.x, digits = 1)
+      )
+    ) |> 
+  knitr::kable(
+    format = "html",
+    col.names = c("Team ", "Champion", "Top 4", "Top 5", "Top 6", "Top Half", "Relegation"), 
+    digits = c(0, rep(4, 6)),
+    padding = 10
+    )
+```
+
