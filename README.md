@@ -1012,3 +1012,12 @@ Southampton
 </tr>
 </tbody>
 </table>
+
+<br/>
+
+### Data
+
+This page is updated daily with the latest available data. At this
+point, that means games up to and including:
+
+TOT 1 - 0 MUN (played on 2025-02-16)

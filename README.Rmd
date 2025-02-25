@@ -74,3 +74,29 @@ readr::read_csv(
     )
 ```
 
+<br/>
+
+### Data
+
+This page is updated daily with the latest available data. At this point, that means games up to and including:
+
+`r readr::read_csv(
+  file = "latest_game.csv", 
+  show_col_types = FALSE
+  ) |> 
+  dplyr::mutate(
+    output = paste0(
+      homeTeam,
+      " ",
+      FTHG,
+      " - ",
+      FTAG,
+      " ",
+      awayTeam,
+      " (played on ",
+      matchday,
+      ")"
+      )
+    ) |> 
+  dplyr::pull(output)`
+
