@@ -16,7 +16,7 @@ question, I choose two different time periods:
 - over the last 19 games (i.e. half season)
 
 Here are those predictions. Please note that 0.0% and 100.0% outcomes do
-not signify certainty in their specific assessment, as:
+not necessarily signify certainty in their specific assessment, as:
 
 - this model uses 100,000 simulations and not 1,000; and more
   pertinently
