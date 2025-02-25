@@ -1020,4 +1020,4 @@ Southampton
 This page is updated daily with the latest available data. At this
 point, that means games up to and including:
 
-TOT 1 - 0 MUN (played on 2025-02-16)
+Tottenham 1 - 0 Man Utd (played on 2025-02-16)

@@ -1,2 +1,2 @@
-matchday,homeTeam,awayTeam,FTHG,FTAG,FTR,played,match,row_order
-2025-02-16,TOT,MUN,1,0,H,TRUE,522,522
+matchday,team_home,team_away,FTHG,FTAG,match,row_order
+2025-02-16,Tottenham,Man Utd,1,0,522,522
