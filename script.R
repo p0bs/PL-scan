@@ -94,9 +94,7 @@ results_combined <- dplyr::bind_rows(results_lastSeason, results_thisSeason) |>
 
 row_order_latest_data <- results_combined |> 
   dplyr::filter(played) |>  
-  dplyr::mutate(
-    value_max = max(as.integer(match))
-  ) |> 
+  dplyr::arrange(dplyr::desc(row_order)) |> 
   dplyr::slice(1)
 
 readr::write_csv(
@@ -105,7 +103,7 @@ readr::write_csv(
   )
 
 row_order_latest <- row_order_latest_data |> 
-  dplyr::pull(value_max)
+  dplyr::pull(row_order)
 
 # Looping ----
 
