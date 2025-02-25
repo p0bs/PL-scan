@@ -95,7 +95,10 @@ results_combined <- dplyr::bind_rows(results_lastSeason, results_thisSeason) |>
 row_order_latest_data <- results_combined |> 
   dplyr::filter(played) |>  
   dplyr::arrange(dplyr::desc(row_order)) |> 
-  dplyr::slice(1)
+  dplyr::slice(1) |> 
+  dplyr::left_join(teams, dplyr::join_by(homeTeam == shortName)) |> 
+  dplyr::left_join(teams, dplyr::join_by(awayTeam == shortName)) |> 
+  dplyr::select(matchday, "team_home" = midName.x, "team_away" = midName.y, FTHG, FTAG, match, row_order)
 
 readr::write_csv(
   x = row_order_latest_data, 

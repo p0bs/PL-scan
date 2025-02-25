@@ -86,13 +86,13 @@ This page is updated daily with the latest available data. At this point, that m
   ) |> 
   dplyr::mutate(
     output = paste0(
-      homeTeam,
+      team_home,
       " ",
       FTHG,
       " - ",
       FTAG,
       " ",
-      awayTeam,
+      team_away,
       " (played on ",
       matchday,
       ")"
