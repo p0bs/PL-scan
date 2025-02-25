@@ -9,15 +9,23 @@ approach](https://github.com/DavidFirth/alt3code) and data from the
 GitHub to predict the outcome of this season’s Premier League.
 
 The predictions are based on a team’s strength, given its performance in
-recent times. But how should we define ‘recent’? In order to duck this
-question, I choose two different time periods: over this and the
-previous season, and the last half of a season.
+recent times. But how should we define *recent*? In order to duck this
+question, I choose two different time periods:
 
-Here are those predictions:
+- over all of last season and this season so far; and
+- over the last 19 games (i.e. half season)
+
+Here are those predictions. Please note that 0.0% and 100.0% outcomes do
+not signify certainty in their specific assessment, as:
+
+- this model uses 100,000 simulations and not 1,000; and more
+  pertinently
+- this model (like all models) is imperfect (but, I think, better than
+  no model at all)
 
 ### Predicted probabilities
 
-#### (Based upon performances over this and the previous season)
+#### (Based upon performances over last season and this season so far)
 
 <table>
 <thead>
@@ -513,7 +521,7 @@ Southampton
 
 ### Predicted probabilities
 
-#### (Based upon performances in the last half season)
+#### (Based upon performances over the last 19 games, be that this season or last season)
 
 <table>
 <thead>
