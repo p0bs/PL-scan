@@ -59,7 +59,7 @@ Relegation
 Liverpool
 </td>
 <td style="text-align:right;">
-83.0%
+96.5%
 </td>
 <td style="text-align:right;">
 100.0%
@@ -82,7 +82,7 @@ Liverpool
 Arsenal
 </td>
 <td style="text-align:right;">
-16.9%
+3.5%
 </td>
 <td style="text-align:right;">
 100.0%
@@ -105,16 +105,16 @@ Arsenal
 Man City
 </td>
 <td style="text-align:right;">
-0.1%
+0.0%
 </td>
 <td style="text-align:right;">
-94.7%
+91.7%
 </td>
 <td style="text-align:right;">
-98.1%
+96.6%
 </td>
 <td style="text-align:right;">
-99.3%
+98.6%
 </td>
 <td style="text-align:right;">
 100.0%
@@ -131,16 +131,16 @@ Chelsea
 0.0%
 </td>
 <td style="text-align:right;">
-37.4%
+34.3%
 </td>
 <td style="text-align:right;">
-60.7%
+55.9%
 </td>
 <td style="text-align:right;">
-77.6%
+73.0%
 </td>
 <td style="text-align:right;">
-99.7%
+99.4%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -154,39 +154,16 @@ Notts Forest
 0.0%
 </td>
 <td style="text-align:right;">
-30.6%
+29.6%
 </td>
 <td style="text-align:right;">
-54.0%
+51.1%
 </td>
 <td style="text-align:right;">
-73.2%
+69.3%
 </td>
 <td style="text-align:right;">
-99.7%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bournemouth
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-17.8%
-</td>
-<td style="text-align:right;">
-37.1%
-</td>
-<td style="text-align:right;">
-56.6%
-</td>
-<td style="text-align:right;">
-98.5%
+99.4%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -200,16 +177,16 @@ Newcastle
 0.0%
 </td>
 <td style="text-align:right;">
-12.0%
+22.1%
 </td>
 <td style="text-align:right;">
-28.1%
+43.2%
 </td>
 <td style="text-align:right;">
-47.3%
+62.8%
 </td>
 <td style="text-align:right;">
-98.2%
+99.1%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -223,16 +200,39 @@ Aston Villa
 0.0%
 </td>
 <td style="text-align:right;">
-4.8%
+7.9%
 </td>
 <td style="text-align:right;">
-12.8%
+18.9%
 </td>
 <td style="text-align:right;">
-24.6%
+33.7%
 </td>
 <td style="text-align:right;">
-92.0%
+94.6%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bournemouth
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+11.1%
+</td>
+<td style="text-align:right;">
+24.2%
+</td>
+<td style="text-align:right;">
+40.2%
+</td>
+<td style="text-align:right;">
+94.9%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -246,16 +246,16 @@ Brighton
 0.0%
 </td>
 <td style="text-align:right;">
-1.6%
+2.8%
 </td>
 <td style="text-align:right;">
-5.4%
+7.9%
 </td>
 <td style="text-align:right;">
-12.4%
+16.2%
 </td>
 <td style="text-align:right;">
-83.2%
+84.1%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -269,16 +269,16 @@ Fulham
 0.0%
 </td>
 <td style="text-align:right;">
-1.0%
+0.4%
 </td>
 <td style="text-align:right;">
-3.5%
+1.6%
 </td>
 <td style="text-align:right;">
-8.1%
+4.2%
 </td>
 <td style="text-align:right;">
-78.4%
+58.4%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -292,16 +292,16 @@ Brentford
 0.0%
 </td>
 <td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
 0.1%
 </td>
 <td style="text-align:right;">
 0.5%
 </td>
 <td style="text-align:right;">
-23.0%
+1.5%
+</td>
+<td style="text-align:right;">
+35.2%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -321,10 +321,56 @@ Tottenham
 0.1%
 </td>
 <td style="text-align:right;">
-0.2%
+0.5%
 </td>
 <td style="text-align:right;">
-16.0%
+18.5%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+West Ham
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.1%
+</td>
+<td style="text-align:right;">
+8.1%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Crystal Palace
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+4.4%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -347,7 +393,7 @@ Man Utd
 0.0%
 </td>
 <td style="text-align:right;">
-4.0%
+2.5%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -370,53 +416,7 @@ Everton
 0.0%
 </td>
 <td style="text-align:right;">
-2.6%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-West Ham
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-2.3%
-</td>
-<td style="text-align:right;">
-0.1%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Crystal Palace
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-2.3%
+1.3%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -442,30 +442,7 @@ Wolves
 0.0%
 </td>
 <td style="text-align:right;">
-6.3%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Leicester
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-96.8%
+1.3%
 </td>
 </tr>
 <tr>
@@ -488,7 +465,30 @@ Ipswich
 0.0%
 </td>
 <td style="text-align:right;">
-96.7%
+99.2%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Leicester
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+99.4%
 </td>
 </tr>
 <tr>
@@ -555,33 +555,10 @@ Relegation
 Liverpool
 </td>
 <td style="text-align:right;">
-97.7%
-</td>
-<td style="text-align:right;">
-100.0%
-</td>
-<td style="text-align:right;">
-100.0%
-</td>
-<td style="text-align:right;">
-100.0%
-</td>
-<td style="text-align:right;">
-100.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Arsenal
-</td>
-<td style="text-align:right;">
-1.9%
-</td>
-<td style="text-align:right;">
 99.8%
+</td>
+<td style="text-align:right;">
+100.0%
 </td>
 <td style="text-align:right;">
 100.0%
@@ -601,16 +578,39 @@ Arsenal
 Notts Forest
 </td>
 <td style="text-align:right;">
-0.4%
+0.0%
 </td>
 <td style="text-align:right;">
-99.2%
+98.3%
+</td>
+<td style="text-align:right;">
+99.7%
 </td>
 <td style="text-align:right;">
 99.9%
 </td>
 <td style="text-align:right;">
 100.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Arsenal
+</td>
+<td style="text-align:right;">
+0.1%
+</td>
+<td style="text-align:right;">
+95.9%
+</td>
+<td style="text-align:right;">
+99.0%
+</td>
+<td style="text-align:right;">
+99.8%
 </td>
 <td style="text-align:right;">
 100.0%
@@ -627,62 +627,16 @@ Bournemouth
 0.0%
 </td>
 <td style="text-align:right;">
-62.8%
+58.8%
 </td>
 <td style="text-align:right;">
-87.2%
+79.7%
 </td>
 <td style="text-align:right;">
-95.5%
-</td>
-<td style="text-align:right;">
-100.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Man City
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-27.8%
-</td>
-<td style="text-align:right;">
-63.7%
-</td>
-<td style="text-align:right;">
-83.1%
+89.9%
 </td>
 <td style="text-align:right;">
 99.9%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Chelsea
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-5.1%
-</td>
-<td style="text-align:right;">
-24.0%
-</td>
-<td style="text-align:right;">
-56.7%
-</td>
-<td style="text-align:right;">
-99.5%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -696,16 +650,62 @@ Newcastle
 0.0%
 </td>
 <td style="text-align:right;">
-3.3%
+26.4%
 </td>
 <td style="text-align:right;">
-14.5%
+56.1%
 </td>
 <td style="text-align:right;">
-33.9%
+75.5%
 </td>
 <td style="text-align:right;">
-96.2%
+99.5%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Chelsea
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+7.4%
+</td>
+<td style="text-align:right;">
+25.9%
+</td>
+<td style="text-align:right;">
+51.4%
+</td>
+<td style="text-align:right;">
+99.3%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Man City
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+8.7%
+</td>
+<td style="text-align:right;">
+23.1%
+</td>
+<td style="text-align:right;">
+42.9%
+</td>
+<td style="text-align:right;">
+96.9%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -719,39 +719,16 @@ Fulham
 0.0%
 </td>
 <td style="text-align:right;">
-1.1%
+2.9%
 </td>
 <td style="text-align:right;">
-5.5%
+9.8%
 </td>
 <td style="text-align:right;">
-14.6%
+22.1%
 </td>
 <td style="text-align:right;">
-89.4%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Brighton
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.8%
-</td>
-<td style="text-align:right;">
-4.1%
-</td>
-<td style="text-align:right;">
-11.6%
-</td>
-<td style="text-align:right;">
-85.9%
+89.7%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -765,16 +742,39 @@ Aston Villa
 0.0%
 </td>
 <td style="text-align:right;">
-0.1%
+1.1%
 </td>
 <td style="text-align:right;">
-1.0%
+4.1%
 </td>
 <td style="text-align:right;">
-3.5%
+10.2%
 </td>
 <td style="text-align:right;">
-62.3%
+78.6%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Brighton
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.4%
+</td>
+<td style="text-align:right;">
+2.0%
+</td>
+<td style="text-align:right;">
+6.0%
+</td>
+<td style="text-align:right;">
+69.5%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -788,16 +788,16 @@ Brentford
 0.0%
 </td>
 <td style="text-align:right;">
-0.0%
+0.1%
 </td>
 <td style="text-align:right;">
-0.2%
+0.6%
 </td>
 <td style="text-align:right;">
-1.1%
+2.0%
 </td>
 <td style="text-align:right;">
-44.6%
+48.1%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -820,30 +820,7 @@ Crystal Palace
 0.1%
 </td>
 <td style="text-align:right;">
-12.1%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Everton
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-5.4%
+10.5%
 </td>
 <td style="text-align:right;">
 0.0%
@@ -866,7 +843,53 @@ West Ham
 0.0%
 </td>
 <td style="text-align:right;">
-1.5%
+5.2%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tottenham
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+2.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Everton
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.0%
+</td>
+<td style="text-align:right;">
+0.6%
 </td>
 <td style="text-align:right;">
 0.1%
@@ -889,33 +912,10 @@ Man Utd
 0.0%
 </td>
 <td style="text-align:right;">
-1.4%
+0.3%
 </td>
 <td style="text-align:right;">
-0.1%
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Tottenham
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-0.0%
-</td>
-<td style="text-align:right;">
-1.9%
-</td>
-<td style="text-align:right;">
-0.1%
+0.2%
 </td>
 </tr>
 <tr>
@@ -938,7 +938,7 @@ Wolves
 0.0%
 </td>
 <td style="text-align:right;">
-10.4%
+2.1%
 </td>
 </tr>
 <tr>
@@ -961,7 +961,7 @@ Ipswich
 0.0%
 </td>
 <td style="text-align:right;">
-91.5%
+97.7%
 </td>
 </tr>
 <tr>
@@ -984,7 +984,7 @@ Leicester
 0.0%
 </td>
 <td style="text-align:right;">
-97.9%
+99.9%
 </td>
 </tr>
 <tr>
@@ -1020,4 +1020,4 @@ Southampton
 This page is updated daily with the latest available data. At this
 point, that means games up to and including:
 
-Tottenham 1 - 0 Man Utd (played on 2025-02-16)
+Man City 0 - 2 Liverpool (played on 2025-02-23)
