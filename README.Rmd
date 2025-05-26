@@ -78,7 +78,7 @@ readr::read_csv(
 
 ### Data
 
-This page is updated daily with the latest available data. At this point, that means games up to and including:
+This page is updated daily in the season with the latest available data. At this point, that means games up to and including:
 
 `r readr::read_csv(
   file = "latest_game.csv", 
