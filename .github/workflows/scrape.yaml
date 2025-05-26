@@ -1,8 +1,8 @@
 on:
   push:
   workflow_dispatch:
-  # Run every day at 11.46am
-  schedule: [{cron: '46 11 * * *'}]
+  # Run every day at 11.46am (added a 9 to pause until September)
+  schedule: [{cron: '46 11 * 9 *'}]
 
 name: scrape
 
