@@ -3,10 +3,9 @@
 
 ## Predicting this season’s Premier League
 
-I use a simplified version of [David Firth’s
-approach](https://github.com/DavidFirth/alt3code) and data from the
-[Open Football repo](https://github.com/openfootball/football.json) on
-GitHub to predict the outcome of this season’s Premier League.
+I combine a simplified version of [David Firth’s
+approach](https://github.com/DavidFirth/alt3code) with open data to
+predict the outcome of this season’s Premier League.
 
 The predictions are based on a team’s strength, given its performance in
 recent times. But how should we define *recent*? In order to duck this
@@ -20,10 +19,10 @@ not necessarily signify certainty in their specific assessment, as:
 
 - this model uses 100,000 simulations and not 1,000;
 - the skill of a team is assumed to be static over the remainder of the
-  season (an assumption that I aim to relax in time); and more
+  season – an assumption that I aim to relax in time; and more
   pertinently
-- this model (like all models) is imperfect (but, I think, better than
-  no model at all)
+- this model, like all models, is imperfect – but, I think, better than
+  no model at all
 
 ### Predicted probabilities
 
