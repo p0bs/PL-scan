@@ -121,7 +121,7 @@ rmarkdown::render("README.Rmd")
 
 data_log <- data.frame(
   value_date = date(),
-  value_rows = nrow(projections)
+  value_rows = nrow(data_simulate_outcomes_19) + nrow(data_simulate_outcomes_76)
   )
 
 write.table(
