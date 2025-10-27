@@ -34,7 +34,6 @@ readr::read_csv(
   file = "projections76.csv", 
   show_col_types = FALSE
   ) |> 
-  dplyr::select(-Exp_Points_Ave) |> 
   dplyr::mutate(
     dplyr::across(
       .cols = c(-midName), 
@@ -59,7 +58,6 @@ readr::read_csv(
   file = "projections19.csv", 
   show_col_types = FALSE
   ) |> 
-  dplyr::select(-Exp_Points_Ave) |> 
   dplyr::mutate(
     dplyr::across(
       .cols = c(-midName), 
