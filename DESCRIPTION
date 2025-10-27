@@ -21,8 +21,11 @@ Imports:
     jsonlite,
     knitr,
     lubridate,
+    PremPredict,
     readr,
     rmarkdown,
     stringr,
     tibble,
     tidyr
+Remotes:
+    p0bs/PremPredict

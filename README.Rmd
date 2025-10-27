@@ -31,7 +31,7 @@ Here are those predictions. Please note that 0.0% and 100.0% outcomes do not nec
 
 ```{r}
 readr::read_csv(
-  file = "projections78.csv", 
+  file = "projections76.csv", 
   show_col_types = FALSE
   ) |> 
   dplyr::select(-Exp_Points_Ave) |> 
