@@ -22,7 +22,8 @@ The predictions are based on a team's strength, given its performance in recent 
 
 Here are those predictions. Please note that 0.0% and 100.0% outcomes do not necessarily signify certainty in their specific assessment, as: 
 
-  * this model uses 100,000 simulations and not 1,000; and more pertinently
+  * this model uses 100,000 simulations and not 1,000;
+  * the skill of a team is assumed to be static over the remainder of the season (an assumption that I aim to relax in time); and more pertinently
   * this model (like all models) is imperfect (but, I think, better than no model at all)
   
 
@@ -84,13 +85,13 @@ This page is updated daily in the season with the latest available data. At this
   ) |> 
   dplyr::mutate(
     output = paste0(
-      team_home,
+      homeTeam,
       " ",
       FTHG,
       " - ",
       FTAG,
       " ",
-      team_away,
+      awayTeam,
       " (played on ",
       matchday,
       ")"
