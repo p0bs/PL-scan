@@ -12,22 +12,16 @@ knitr::opts_chunk$set(
 
 ## Predicting this season's Premier League
 
-I combine a simplified version of [David Firth's approach](https://github.com/DavidFirth/alt3code) with open data to predict the outcome of this season's Premier League. 
+My predictions combine open data with a simplified version of [David Firth's approach](https://github.com/DavidFirth/alt3code). 
 
-The predictions are based on a team's strength, given its performance in recent times. But how should we define *recent*? In order to duck this question, I choose two different time periods:
+These predictions are based on a team's strength, given its performance in recent times. But how should we define *recent*? In order to duck this question, I choose two different time periods:
 
   * over all of last season and this season so far; and
   * over the last 19 games (i.e. half season)
 
-Here are those predictions. Please note that 0.0% and 100.0% outcomes do not necessarily signify certainty in their specific assessment, as: 
 
-  * this model uses 100,000 simulations and not 1,000;
-  * the skill of a team is assumed to be static over the remainder of the season -- an assumption that I aim to relax in time; and more pertinently
-  * this model, like all models, is imperfect -- but, I think, better than no model at all
-  
-
-### Predicted probabilities
-#### (Based upon performances over last season and this season so far)
+### Predictions with a longer memory
+**(Based upon performances over last season and this season so far)**
 
 ```{r}
 readr::read_csv(
@@ -50,8 +44,8 @@ readr::read_csv(
 
 <br/>
 
-### Predicted probabilities
-#### (Based upon performances over the last 19 games, be that this season or last season)
+### Predictions with a shorter memory
+**(Based upon performances over the last 19 games, be that this season or last season)**
 
 ```{r}
 readr::read_csv(
@@ -74,9 +68,16 @@ readr::read_csv(
 
 <br/>
 
-### Data
+### Notes and data
 
-This page is updated daily in the season with the latest available data. At this point, that means games up to and including:
+Please note that 0.0% and 100.0% outcomes do not necessarily signify certainty in their specific assessment, as: 
+
+  * this model uses 100,000 simulations and not 1,000;
+  * the skill of a team is assumed to be static over the remainder of the season -- an assumption that I aim to relax in time; and more pertinently
+  * this model, like all models, is imperfect -- but, I think, better than no model at all
+
+
+Finally, and with thanks to GitHub Actions, this page is updated daily in the season with the latest available data. At this point, that means games up to and including:
 
 `r readr::read_csv(
   file = "latest_game.csv", 
