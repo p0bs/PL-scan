@@ -77,7 +77,7 @@ Please note that 0.0% and 100.0% outcomes do not necessarily signify certainty i
   * this model, like all models, is imperfect -- but, I think, better than no model at all
 
 
-Finally, and with thanks to GitHub Actions, this page is updated daily in the season with the latest available data. At this point, that means games up to and including:
+Finally, and with thanks to GitHub Actions, this page is updated daily in the season with the latest available data. At this point, that means games up to and including the day of:
 
 `r readr::read_csv(
   file = "latest_game.csv", 
