@@ -1022,4 +1022,4 @@ Finally, and with thanks to GitHub Actions, this page is updated daily
 in the season with the latest available data. At this point, that means
 games up to and including the day of:
 
-WHU 3 - 2 BUR (played on 2025-11-08)
+Man City 3 - 0 Liverpool (played on 2025-11-09)
