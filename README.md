@@ -3,12 +3,14 @@
 
 ## Predicting this season’s Premier League
 
-My predictions combine open data with a simplified version of [David
-Firth’s approach](https://github.com/DavidFirth/alt3code).
+My predictions combine [open
+data](https://www.football-data.co.uk/mmz4281/2526/E0.csv) with a
+simplified version of [David Firth’s
+approach](https://github.com/DavidFirth/alt3code).
 
-These predictions are based on a team’s strength, given its performance
-in recent times. But how should we define *recent*? In order to duck
-this question, I choose two different time periods:
+These predictions are based upon a team’s strength, given its recent
+performance. But how should we define *recent*? In order to duck this
+question, I choose two different time periods:
 
 - over all of last season and this season so far; and
 - over the last 19 games (i.e. half season)
@@ -1018,8 +1020,7 @@ certainty in their specific assessment, as:
 - this model, like all models, is imperfect – but, I think, better than
   no model at all
 
-Finally, and with thanks to GitHub Actions, this page is updated daily
-in the season with the latest available data. At this point, that means
-games up to and including the day of:
+Finally, this page is updated daily in the season with the latest
+available data. At this point, that means games up to:
 
 Man City 3 - 0 Liverpool (played on 2025-11-09)
