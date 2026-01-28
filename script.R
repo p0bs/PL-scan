@@ -3,7 +3,7 @@
 
 # Data ----
 
-number_simulations <- 1000000
+number_simulations <- 500000
 
 teams <- PremPredict::teams
 schedule_thisSeason <- PremPredict::schedule_thisSeason
@@ -90,10 +90,14 @@ data_simulate_standings_19 <- PremPredict::simulate_standings(
   data_table_latest = data_table_current
 )
 
+rm(data_simulate_games_19)
+
 data_simulate_outcomes_19 <- PremPredict::simulate_outcomes(
   data_standings_simulations = data_simulate_standings_19,
   value_number_sims = number_simulations
 )
+
+rm(data_simulate_standings_19)
 
 data_simulate_games_76 <- PremPredict::simulate_games(
   data_model_parameters_unplayed = data_model_parameters_unplayed_76,
@@ -106,10 +110,14 @@ data_simulate_standings_76 <- PremPredict::simulate_standings(
   data_table_latest = data_table_current
 )
 
+rm(data_simulate_games_76)
+
 data_simulate_outcomes_76 <- PremPredict::simulate_outcomes(
   data_standings_simulations = data_simulate_standings_76,
   value_number_sims = number_simulations
 )
+
+rm(data_simulate_standings_76)
 
 readr::write_csv(
   x = data_simulate_outcomes_19,

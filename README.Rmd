@@ -72,7 +72,7 @@ readr::read_csv(
 
 Please note that 0.0% and 100.0% outcomes do not necessarily signify certainty in their specific assessment, as: 
 
-  * this model uses 1,000,000 simulations and not 1,000;
+  * this model uses 500,000 simulations and not 1,000;
   * the skill of a team is assumed to be static over the remainder of the season -- an assumption that I aim to relax in time; and more pertinently
   * this model, like all models, is imperfect -- but, I think, better than no model at all
 
