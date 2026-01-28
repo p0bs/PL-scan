@@ -3,7 +3,7 @@
 
 # Data ----
 
-number_simulations <- 500000
+number_simulations <- 400000
 
 teams <- PremPredict::teams
 schedule_thisSeason <- PremPredict::schedule_thisSeason
