@@ -55,6 +55,10 @@ results_filtered_76 <- PremPredict::get_results_filtered(
 data_table_current <- data_results_thisSeason |>
   PremPredict::calc_table_current()
 
+cat("Data section complete.")
+
+# Modelling ----
+
 data_model_19 <- results_filtered_19 |>
   PremPredict::model_prepare_frame() |>
   PremPredict::model_run()
@@ -78,6 +82,10 @@ data_model_parameters_unplayed_76 <- PremPredict::model_parameters_unplayed(
   results = results_filtered_76,
   model_parameters = data_parameters_unplayed_76
 )
+
+cat("Modelling section complete.")
+
+# Simulation ----
 
 data_simulate_games_19 <- PremPredict::simulate_games(
   data_model_parameters_unplayed = data_model_parameters_unplayed_19,
@@ -119,6 +127,10 @@ data_simulate_outcomes_76 <- PremPredict::simulate_outcomes(
 
 rm(data_simulate_standings_76)
 
+cat("Simulation section complete.")
+
+# Outputs ----
+
 readr::write_csv(
   x = data_simulate_outcomes_19,
   file = "projections19.csv"
@@ -134,10 +146,13 @@ readr::write_csv(
   file = "latest_game.csv"
 )
 
+cat("Outputs section complete.")
 
 # Rendering README ----
 
 rmarkdown::render("README.Rmd")
+
+cat("Rendering README section complete.")
 
 
 # Saving log ----
@@ -155,3 +170,5 @@ write.table(
   col.names = FALSE,
   append = TRUE
 )
+
+cat("Saving log section complete.")
