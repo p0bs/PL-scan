@@ -153,7 +153,7 @@ readr::write_csv(
 )
 
 readr::write_csv(
-  x = number_simulations,
+  x = tibble::tibble(number_simulations = number_simulations),
   file = "number_simulations.csv"
 )
 
