@@ -8,6 +8,9 @@ output: github_document
 knitr::opts_chunk$set(
   echo = FALSE
   )
+
+number_simulations <- readr::read_csv("number_simulations.csv") |> 
+  dplyr::pull(number_simulations)
 ```
 
 ## Predicting this season's Premier League
@@ -72,7 +75,7 @@ readr::read_csv(
 
 Please note that 0.0% and 100.0% outcomes do not necessarily signify certainty in their specific assessment, as: 
 
-  * this model uses 400,000 simulations and not 1,000;
+  * this model uses `r scales::number(number_simulations, big.mark = ",")` simulations and not 1,000;
   * the skill of a team is assumed to be static over the remainder of the season -- an assumption that I aim to relax in time; and more pertinently
   * this model, like all models, is imperfect -- but, I think, better than no model at all
 
