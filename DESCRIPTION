@@ -25,6 +25,7 @@ Imports:
     PremPredict,
     readr,
     rmarkdown,
+    scales,
     stringr,
     tibble,
     tidyr
