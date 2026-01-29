@@ -3,8 +3,6 @@
 
 # Data ----
 
-number_simulations <- 400000
-
 teams <- PremPredict::teams
 schedule_thisSeason <- PremPredict::schedule_thisSeason
 
@@ -32,6 +30,10 @@ data_results_thisSeason <- PremPredict::get_footballData(
   table_teams = teams,
   value_yearEnd = 2026L
 )
+
+n_games_remaining <- data_results_thisSeason |>
+  dplyr::filter(!played) |>
+  nrow()
 
 results_combined <- PremPredict::get_results(
   results_thisSeason = data_results_thisSeason,
@@ -86,6 +88,10 @@ data_model_parameters_unplayed_76 <- PremPredict::model_parameters_unplayed(
 cat("Modelling section complete.")
 
 # Simulation ----
+
+number_simulations <- round(
+  (400000 * 150) / max(n_games_remaining, 1)
+)
 
 data_simulate_games_19 <- PremPredict::simulate_games(
   data_model_parameters_unplayed = data_model_parameters_unplayed_19,
@@ -144,6 +150,11 @@ readr::write_csv(
 readr::write_csv(
   x = row_order_latest_data,
   file = "latest_game.csv"
+)
+
+readr::write_csv(
+  x = number_simulations,
+  file = "number_simulations.csv"
 )
 
 cat("Outputs section complete.")
