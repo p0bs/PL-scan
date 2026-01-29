@@ -1010,15 +1010,24 @@ Wolves
 
 ### Notes and data
 
-Please note that 0.0% and 100.0% outcomes do not necessarily signify
-certainty in their specific assessment, as:
+These model estimates are only meant to be a general guide and should
+not be used for the purposes of trading. Furthermore, please avoid any
+overconfidence in the model’s specific assessments, as:
 
-- this model uses 400,000 simulations and not 1,000;
-- the skill of a team is assumed to be static over the remainder of the
-  season – an assumption that I aim to relax in time; and more
-  pertinently
-- this model, like all models, is imperfect – but, I think, better than
-  no model at all
+- the model uses 400,000 simulations for each fixture, which is probably
+  nowhere near enough to convey all possible combinations of results for
+  the remaining games in the season (unless we are *very* close to the
+  end of the season);
+- the model assumes that the skill of each team will remain static over
+  the rest of the season;
+- the model only considers the previous results of a team to project its
+  future results (thereby ignoring other impacts, such as ownership or
+  management changes).
+
+Like all models, therefore, this model is imperfect … but, I think,
+better than no model at all.
+
+<br/>
 
 Finally, this page is updated daily in the season with the latest
 available data. At this point, that means games up to:
