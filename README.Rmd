@@ -26,7 +26,7 @@ These predictions are based upon a team's strength, given its recent performance
 ### Predictions with a longer memory
 **(Based upon performances over last season and this season so far)**
 
-```{r}
+```{r, results='asis'}
 readr::read_csv(
   file = "projections76.csv", 
   show_col_types = FALSE
@@ -52,7 +52,7 @@ readr::read_csv(
 ### Predictions with a shorter memory
 **(Based upon performances over the last 19 games, be that this season or last season)**
 
-```{r}
+```{r, results='asis'}
 readr::read_csv(
   file = "projections19.csv", 
   show_col_types = FALSE
