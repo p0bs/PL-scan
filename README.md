@@ -19,20 +19,20 @@ question, I choose two different time periods:
 
 **(Based upon performances over last season and this season so far)**
 
-<div id="enwmnvaveb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#enwmnvaveb table {
+<div id="vzdtsnvtdm" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#vzdtsnvtdm table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-&#10;#enwmnvaveb thead, #enwmnvaveb tbody, #enwmnvaveb tfoot, #enwmnvaveb tr, #enwmnvaveb td, #enwmnvaveb th {
+&#10;#vzdtsnvtdm thead, #vzdtsnvtdm tbody, #vzdtsnvtdm tfoot, #vzdtsnvtdm tr, #vzdtsnvtdm td, #vzdtsnvtdm th {
   border-style: none;
 }
-&#10;#enwmnvaveb p {
+&#10;#vzdtsnvtdm p {
   margin: 0;
   padding: 0;
 }
-&#10;#enwmnvaveb .gt_table {
+&#10;#vzdtsnvtdm .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -57,11 +57,11 @@ question, I choose two different time periods:
   border-left-width: 2px;
   border-left-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_caption {
+&#10;#vzdtsnvtdm .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-&#10;#enwmnvaveb .gt_title {
+&#10;#vzdtsnvtdm .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -72,7 +72,7 @@ question, I choose two different time periods:
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
-&#10;#enwmnvaveb .gt_subtitle {
+&#10;#vzdtsnvtdm .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -83,7 +83,7 @@ question, I choose two different time periods:
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
-&#10;#enwmnvaveb .gt_heading {
+&#10;#vzdtsnvtdm .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -94,12 +94,12 @@ question, I choose two different time periods:
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_bottom_border {
+&#10;#vzdtsnvtdm .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_col_headings {
+&#10;#vzdtsnvtdm .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -113,7 +113,7 @@ question, I choose two different time periods:
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_col_heading {
+&#10;#vzdtsnvtdm .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -132,7 +132,7 @@ question, I choose two different time periods:
   padding-right: 5px;
   overflow-x: hidden;
 }
-&#10;#enwmnvaveb .gt_column_spanner_outer {
+&#10;#vzdtsnvtdm .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -143,13 +143,13 @@ question, I choose two different time periods:
   padding-left: 4px;
   padding-right: 4px;
 }
-&#10;#enwmnvaveb .gt_column_spanner_outer:first-child {
+&#10;#vzdtsnvtdm .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
-&#10;#enwmnvaveb .gt_column_spanner_outer:last-child {
+&#10;#vzdtsnvtdm .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
-&#10;#enwmnvaveb .gt_column_spanner {
+&#10;#vzdtsnvtdm .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -160,10 +160,10 @@ question, I choose two different time periods:
   display: inline-block;
   width: 100%;
 }
-&#10;#enwmnvaveb .gt_spanner_row {
+&#10;#vzdtsnvtdm .gt_spanner_row {
   border-bottom-style: hidden;
 }
-&#10;#enwmnvaveb .gt_group_heading {
+&#10;#vzdtsnvtdm .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -188,7 +188,7 @@ question, I choose two different time periods:
   vertical-align: middle;
   text-align: left;
 }
-&#10;#enwmnvaveb .gt_empty_group_heading {
+&#10;#vzdtsnvtdm .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -202,13 +202,13 @@ question, I choose two different time periods:
   border-bottom-color: #D3D3D3;
   vertical-align: middle;
 }
-&#10;#enwmnvaveb .gt_from_md > :first-child {
+&#10;#vzdtsnvtdm .gt_from_md > :first-child {
   margin-top: 0;
 }
-&#10;#enwmnvaveb .gt_from_md > :last-child {
+&#10;#vzdtsnvtdm .gt_from_md > :last-child {
   margin-bottom: 0;
 }
-&#10;#enwmnvaveb .gt_row {
+&#10;#vzdtsnvtdm .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -226,7 +226,7 @@ question, I choose two different time periods:
   vertical-align: middle;
   overflow-x: hidden;
 }
-&#10;#enwmnvaveb .gt_stub {
+&#10;#vzdtsnvtdm .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -238,7 +238,7 @@ question, I choose two different time periods:
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#enwmnvaveb .gt_stub_row_group {
+&#10;#vzdtsnvtdm .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -251,13 +251,13 @@ question, I choose two different time periods:
   padding-right: 5px;
   vertical-align: top;
 }
-&#10;#enwmnvaveb .gt_row_group_first td {
+&#10;#vzdtsnvtdm .gt_row_group_first td {
   border-top-width: 2px;
 }
-&#10;#enwmnvaveb .gt_row_group_first th {
+&#10;#vzdtsnvtdm .gt_row_group_first th {
   border-top-width: 2px;
 }
-&#10;#enwmnvaveb .gt_summary_row {
+&#10;#vzdtsnvtdm .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -266,14 +266,14 @@ question, I choose two different time periods:
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#enwmnvaveb .gt_first_summary_row {
+&#10;#vzdtsnvtdm .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_first_summary_row.thick {
+&#10;#vzdtsnvtdm .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
-&#10;#enwmnvaveb .gt_last_summary_row {
+&#10;#vzdtsnvtdm .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -282,7 +282,7 @@ question, I choose two different time periods:
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_grand_summary_row {
+&#10;#vzdtsnvtdm .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -291,7 +291,7 @@ question, I choose two different time periods:
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#enwmnvaveb .gt_first_grand_summary_row {
+&#10;#vzdtsnvtdm .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -300,7 +300,7 @@ question, I choose two different time periods:
   border-top-width: 6px;
   border-top-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_last_grand_summary_row_top {
+&#10;#vzdtsnvtdm .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -309,10 +309,10 @@ question, I choose two different time periods:
   border-bottom-width: 6px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_striped {
+&#10;#vzdtsnvtdm .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
-&#10;#enwmnvaveb .gt_table_body {
+&#10;#vzdtsnvtdm .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -320,7 +320,7 @@ question, I choose two different time periods:
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_footnotes {
+&#10;#vzdtsnvtdm .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -333,7 +333,7 @@ question, I choose two different time periods:
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_footnote {
+&#10;#vzdtsnvtdm .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -341,7 +341,7 @@ question, I choose two different time periods:
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#enwmnvaveb .gt_sourcenotes {
+&#10;#vzdtsnvtdm .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -354,64 +354,64 @@ question, I choose two different time periods:
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#enwmnvaveb .gt_sourcenote {
+&#10;#vzdtsnvtdm .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#enwmnvaveb .gt_left {
+&#10;#vzdtsnvtdm .gt_left {
   text-align: left;
 }
-&#10;#enwmnvaveb .gt_center {
+&#10;#vzdtsnvtdm .gt_center {
   text-align: center;
 }
-&#10;#enwmnvaveb .gt_right {
+&#10;#vzdtsnvtdm .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-&#10;#enwmnvaveb .gt_font_normal {
+&#10;#vzdtsnvtdm .gt_font_normal {
   font-weight: normal;
 }
-&#10;#enwmnvaveb .gt_font_bold {
+&#10;#vzdtsnvtdm .gt_font_bold {
   font-weight: bold;
 }
-&#10;#enwmnvaveb .gt_font_italic {
+&#10;#vzdtsnvtdm .gt_font_italic {
   font-style: italic;
 }
-&#10;#enwmnvaveb .gt_super {
+&#10;#vzdtsnvtdm .gt_super {
   font-size: 65%;
 }
-&#10;#enwmnvaveb .gt_footnote_marks {
+&#10;#vzdtsnvtdm .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
-&#10;#enwmnvaveb .gt_asterisk {
+&#10;#vzdtsnvtdm .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
-&#10;#enwmnvaveb .gt_indent_1 {
+&#10;#vzdtsnvtdm .gt_indent_1 {
   text-indent: 5px;
 }
-&#10;#enwmnvaveb .gt_indent_2 {
+&#10;#vzdtsnvtdm .gt_indent_2 {
   text-indent: 10px;
 }
-&#10;#enwmnvaveb .gt_indent_3 {
+&#10;#vzdtsnvtdm .gt_indent_3 {
   text-indent: 15px;
 }
-&#10;#enwmnvaveb .gt_indent_4 {
+&#10;#vzdtsnvtdm .gt_indent_4 {
   text-indent: 20px;
 }
-&#10;#enwmnvaveb .gt_indent_5 {
+&#10;#vzdtsnvtdm .gt_indent_5 {
   text-indent: 25px;
 }
-&#10;#enwmnvaveb .katex-display {
+&#10;#vzdtsnvtdm .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
-&#10;#enwmnvaveb div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+&#10;#vzdtsnvtdm div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -579,20 +579,20 @@ question, I choose two different time periods:
 **(Based upon performances over the last 19 games, be that this season
 or last season)**
 
-<div id="jfqyzprawc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#jfqyzprawc table {
+<div id="rxdaakvvyc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#rxdaakvvyc table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-&#10;#jfqyzprawc thead, #jfqyzprawc tbody, #jfqyzprawc tfoot, #jfqyzprawc tr, #jfqyzprawc td, #jfqyzprawc th {
+&#10;#rxdaakvvyc thead, #rxdaakvvyc tbody, #rxdaakvvyc tfoot, #rxdaakvvyc tr, #rxdaakvvyc td, #rxdaakvvyc th {
   border-style: none;
 }
-&#10;#jfqyzprawc p {
+&#10;#rxdaakvvyc p {
   margin: 0;
   padding: 0;
 }
-&#10;#jfqyzprawc .gt_table {
+&#10;#rxdaakvvyc .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -617,11 +617,11 @@ or last season)**
   border-left-width: 2px;
   border-left-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_caption {
+&#10;#rxdaakvvyc .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-&#10;#jfqyzprawc .gt_title {
+&#10;#rxdaakvvyc .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -632,7 +632,7 @@ or last season)**
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
-&#10;#jfqyzprawc .gt_subtitle {
+&#10;#rxdaakvvyc .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -643,7 +643,7 @@ or last season)**
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
-&#10;#jfqyzprawc .gt_heading {
+&#10;#rxdaakvvyc .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -654,12 +654,12 @@ or last season)**
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_bottom_border {
+&#10;#rxdaakvvyc .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_col_headings {
+&#10;#rxdaakvvyc .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -673,7 +673,7 @@ or last season)**
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_col_heading {
+&#10;#rxdaakvvyc .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -692,7 +692,7 @@ or last season)**
   padding-right: 5px;
   overflow-x: hidden;
 }
-&#10;#jfqyzprawc .gt_column_spanner_outer {
+&#10;#rxdaakvvyc .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -703,13 +703,13 @@ or last season)**
   padding-left: 4px;
   padding-right: 4px;
 }
-&#10;#jfqyzprawc .gt_column_spanner_outer:first-child {
+&#10;#rxdaakvvyc .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
-&#10;#jfqyzprawc .gt_column_spanner_outer:last-child {
+&#10;#rxdaakvvyc .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
-&#10;#jfqyzprawc .gt_column_spanner {
+&#10;#rxdaakvvyc .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -720,10 +720,10 @@ or last season)**
   display: inline-block;
   width: 100%;
 }
-&#10;#jfqyzprawc .gt_spanner_row {
+&#10;#rxdaakvvyc .gt_spanner_row {
   border-bottom-style: hidden;
 }
-&#10;#jfqyzprawc .gt_group_heading {
+&#10;#rxdaakvvyc .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -748,7 +748,7 @@ or last season)**
   vertical-align: middle;
   text-align: left;
 }
-&#10;#jfqyzprawc .gt_empty_group_heading {
+&#10;#rxdaakvvyc .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -762,13 +762,13 @@ or last season)**
   border-bottom-color: #D3D3D3;
   vertical-align: middle;
 }
-&#10;#jfqyzprawc .gt_from_md > :first-child {
+&#10;#rxdaakvvyc .gt_from_md > :first-child {
   margin-top: 0;
 }
-&#10;#jfqyzprawc .gt_from_md > :last-child {
+&#10;#rxdaakvvyc .gt_from_md > :last-child {
   margin-bottom: 0;
 }
-&#10;#jfqyzprawc .gt_row {
+&#10;#rxdaakvvyc .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -786,7 +786,7 @@ or last season)**
   vertical-align: middle;
   overflow-x: hidden;
 }
-&#10;#jfqyzprawc .gt_stub {
+&#10;#rxdaakvvyc .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -798,7 +798,7 @@ or last season)**
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#jfqyzprawc .gt_stub_row_group {
+&#10;#rxdaakvvyc .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -811,13 +811,13 @@ or last season)**
   padding-right: 5px;
   vertical-align: top;
 }
-&#10;#jfqyzprawc .gt_row_group_first td {
+&#10;#rxdaakvvyc .gt_row_group_first td {
   border-top-width: 2px;
 }
-&#10;#jfqyzprawc .gt_row_group_first th {
+&#10;#rxdaakvvyc .gt_row_group_first th {
   border-top-width: 2px;
 }
-&#10;#jfqyzprawc .gt_summary_row {
+&#10;#rxdaakvvyc .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -826,14 +826,14 @@ or last season)**
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#jfqyzprawc .gt_first_summary_row {
+&#10;#rxdaakvvyc .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_first_summary_row.thick {
+&#10;#rxdaakvvyc .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
-&#10;#jfqyzprawc .gt_last_summary_row {
+&#10;#rxdaakvvyc .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -842,7 +842,7 @@ or last season)**
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_grand_summary_row {
+&#10;#rxdaakvvyc .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -851,7 +851,7 @@ or last season)**
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#jfqyzprawc .gt_first_grand_summary_row {
+&#10;#rxdaakvvyc .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -860,7 +860,7 @@ or last season)**
   border-top-width: 6px;
   border-top-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_last_grand_summary_row_top {
+&#10;#rxdaakvvyc .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -869,10 +869,10 @@ or last season)**
   border-bottom-width: 6px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_striped {
+&#10;#rxdaakvvyc .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
-&#10;#jfqyzprawc .gt_table_body {
+&#10;#rxdaakvvyc .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -880,7 +880,7 @@ or last season)**
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_footnotes {
+&#10;#rxdaakvvyc .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -893,7 +893,7 @@ or last season)**
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_footnote {
+&#10;#rxdaakvvyc .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -901,7 +901,7 @@ or last season)**
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#jfqyzprawc .gt_sourcenotes {
+&#10;#rxdaakvvyc .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -914,64 +914,64 @@ or last season)**
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-&#10;#jfqyzprawc .gt_sourcenote {
+&#10;#rxdaakvvyc .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 5px;
   padding-right: 5px;
 }
-&#10;#jfqyzprawc .gt_left {
+&#10;#rxdaakvvyc .gt_left {
   text-align: left;
 }
-&#10;#jfqyzprawc .gt_center {
+&#10;#rxdaakvvyc .gt_center {
   text-align: center;
 }
-&#10;#jfqyzprawc .gt_right {
+&#10;#rxdaakvvyc .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-&#10;#jfqyzprawc .gt_font_normal {
+&#10;#rxdaakvvyc .gt_font_normal {
   font-weight: normal;
 }
-&#10;#jfqyzprawc .gt_font_bold {
+&#10;#rxdaakvvyc .gt_font_bold {
   font-weight: bold;
 }
-&#10;#jfqyzprawc .gt_font_italic {
+&#10;#rxdaakvvyc .gt_font_italic {
   font-style: italic;
 }
-&#10;#jfqyzprawc .gt_super {
+&#10;#rxdaakvvyc .gt_super {
   font-size: 65%;
 }
-&#10;#jfqyzprawc .gt_footnote_marks {
+&#10;#rxdaakvvyc .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
-&#10;#jfqyzprawc .gt_asterisk {
+&#10;#rxdaakvvyc .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
-&#10;#jfqyzprawc .gt_indent_1 {
+&#10;#rxdaakvvyc .gt_indent_1 {
   text-indent: 5px;
 }
-&#10;#jfqyzprawc .gt_indent_2 {
+&#10;#rxdaakvvyc .gt_indent_2 {
   text-indent: 10px;
 }
-&#10;#jfqyzprawc .gt_indent_3 {
+&#10;#rxdaakvvyc .gt_indent_3 {
   text-indent: 15px;
 }
-&#10;#jfqyzprawc .gt_indent_4 {
+&#10;#rxdaakvvyc .gt_indent_4 {
   text-indent: 20px;
 }
-&#10;#jfqyzprawc .gt_indent_5 {
+&#10;#rxdaakvvyc .gt_indent_5 {
   text-indent: 25px;
 }
-&#10;#jfqyzprawc .katex-display {
+&#10;#rxdaakvvyc .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
-&#10;#jfqyzprawc div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+&#10;#rxdaakvvyc div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
