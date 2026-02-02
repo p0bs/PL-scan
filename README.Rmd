@@ -30,7 +30,8 @@ These predictions are based upon a team's strength, given its recent performance
 readr::read_csv(
   file = "projections76.csv", 
   show_col_types = FALSE
-  )
+  ) |> 
+  gt::gt()
   #  |> 
   # dplyr::mutate(
   #   dplyr::across(
@@ -55,7 +56,8 @@ readr::read_csv(
 readr::read_csv(
   file = "projections19.csv", 
   show_col_types = FALSE
-  ) 
+  ) |> 
+  gt::gt()
   # |> 
   # dplyr::mutate(
   #   dplyr::across(
