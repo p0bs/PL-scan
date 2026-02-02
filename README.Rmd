@@ -31,20 +31,8 @@ readr::read_csv(
   file = "projections76.csv", 
   show_col_types = FALSE
   ) |> 
-  gt::gt()
-  #  |> 
-  # dplyr::mutate(
-  #   dplyr::across(
-  #     .cols = c(-midName), 
-  #     .fns = ~formattable::percent(.x, digits = 1)
-  #     )
-  #   ) |> 
-  # knitr::kable(
-  #   format = "html",
-  #   col.names = c("Team ", "Champion", "Top 4", "Top 5", "Top 6", "Top Half", "Relegation"), 
-  #   digits = c(0, rep(4, 6)),
-  #   padding = 10
-  #   )
+  gt::gt() |> 
+  gt::as_raw_html()
 ```
 
 <br/>
@@ -57,20 +45,9 @@ readr::read_csv(
   file = "projections19.csv", 
   show_col_types = FALSE
   ) |> 
-  gt::gt()
-  # |> 
-  # dplyr::mutate(
-  #   dplyr::across(
-  #     .cols = c(-midName), 
-  #     .fns = ~formattable::percent(.x, digits = 1)
-  #     )
-  #   ) |> 
-  # knitr::kable(
-  #   format = "html",
-  #   col.names = c("Team ", "Champion", "Top 4", "Top 5", "Top 6", "Top Half", "Relegation"), 
-  #   digits = c(0, rep(4, 6)),
-  #   padding = 10
-  #   )
+  gt::gt() |> 
+  gt::as_raw_html()
+
 ```
 
 <br/>
