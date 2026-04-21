@@ -89,8 +89,11 @@ cat("Modelling section complete.")
 
 # Simulation ----
 
-number_simulations <- round(
-  (400000 * 150) / max(n_games_remaining, 1)
+number_simulations <- min(
+  840000,
+  round(
+    (400000 * 150) / max(n_games_remaining, 1)
+  )
 )
 
 data_simulate_games_19 <- PremPredict::simulate_games(
